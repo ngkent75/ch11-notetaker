@@ -32,5 +32,11 @@ app.post('/api/notes', (req, res) => {
 app.get('/notes', (req, res) => res.sendFile(path.join(__dirname, './public/notes.html')));
 app.get('*', (req, res) => res.sendFile(path.join(__dirname, './public/index.html')));
 
+app.delete('/api/notes/:id', (req, res) => {
+    const findItem = (object) => object.id === req.params.id;
+    noteData.splice(noteData.findIndex(findItem), 1);
+    fs.writeFileSync('./db/db.json', JSON.stringify(noteData));
+    location.reload();
+});
 
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
