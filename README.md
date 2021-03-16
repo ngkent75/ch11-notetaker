@@ -20,6 +20,7 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ## Usage
 
 To access the repo, go to https://github.com/ngkent75/ch11-notetaker
+To access via Heroku: https://stormy-castle-95329.herokuapp.com/
 
 
 1. Open the webpage and click on "Get Started"
