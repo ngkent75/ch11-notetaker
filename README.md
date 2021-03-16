@@ -28,11 +28,11 @@ To access the repo, go to https://github.com/ngkent75/ch11-notetaker
 
 2. Fill out the title and text of your note and click the save icon. You can click back on any of your notes to view them.
 
-![Homepage](./Assets/demo1.png)
+![View of Notes](./Assets/demo1.png)
 
 3. When you want to delete a note, you can click on the trashcan and the note will be removed. Here I deleted "test 2."
 
-![Homepage](./Assets/demo2.png)
+![View of Deletion](./Assets/demo2.png)
 
 ## Credit
 
